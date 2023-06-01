@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video playsinline autoplay muted loop>
+      <source src="hotel.mp4" type="video/mp4" />
+    </video>
+    <nav>
+      <div class="logo" id="HotelName"><img src="logo.jpg" alt="OMA Logo" width="40">&emsp;<p>Hotel OMA</p></div> 
+<div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">
+              </li>
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item" id="addApartmentNav">
+            <a href="addApartment.html">Add New Apartment</a>
+          </li>
+          <li class="nav-item" id="browseApartmentNav">
+            <a href="browseApartment.html">Browse Available Apartment</a>
+          </li>
+          <li class="nav-item" id="loginNav">
+            <a href="login.html">Login</a>
+          </li>
+          <li class="nav-item" id="registerNav">
+            <a href="register.html">Register</a>
+          </li>
+          <li class="nav-item" id="logoutNav"></li>
+          
+          <li class="nav-item">
+            <button class="feedback"><a href="#"><ins>Feedback</ins></a></button>
+          
+        </ul>
+      </div>
+      </nav>
+    <form action="" >
+        <h2>Feedback Information:</h2>
+        <label for="Name">Name:</label>
+        <input type="text" placeholder="Please type your name" class="InputBox"/>
+       
+        <label for="Pnumber">Phone Number:</label>
+        <input type="tel" name="Pnumber" id="Pnumber" class="InputBox" />
+        
+        <label for="Feedback">Feedback:</label>
+        
+        <textarea
+          name="Feedback"
+          id="Feedback"
+          cols="34"
+          rows="4"
+          class="InputBox"
+        ></textarea>
+        <input type="submit" value="Submit" id="feedS">
+    </form>
+    <script src="site.js"></script>
+  </body>
+</html>

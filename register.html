@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <video playsinline autoplay muted loop>
+        <source src="hotel.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo" id="HotelName"><img src="logo.jpg" alt="OMA Logo" width="40">&emsp;<p>Hotel OMA</p></div> 
+  <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                  </li>
+              <li class="nav-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="nav-item" id="addApartmentNav">
+                <a href="addApartment.html">Add New Apartment</a>
+              </li>
+              <li class="nav-item" id="browseApartmentNav">
+                <a href="browseApartment.html">Browse Available Apartment</a>
+              </li>
+              <li class="nav-item" id="loginNav">
+                <a href="login.html">Login</a>
+              </li>
+              <li class="nav-item" id="registerNav">
+                <a href="#"><ins>Register</ins></a>
+              </li>
+              <li class="nav-item" id="logoutNav"></li>
+              
+              <li class="nav-item">
+                <button class="feedback"><a href="addFeedback.html">Feedback</a></button>
+              
+            </ul>
+          </div>
+          </nav>
+    <form action="" onsubmit="signup()" class="form">
+        <h1>Register</h1>
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName" required placeholder="Enter your first name" class="InputBox">
+        
+        <label for="lName">Last Name:</label>
+        <input type="text" name="fName" id="lName" required placeholder="Enter your last name" class="InputBox">
+        
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required placeholder="Enter your email"  size="20" class="InputBox">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" name="Username" required placeholder="Please enter your username">
+        
+        <label for="password" >Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required  class="InputBox">
+        
+        <label for="Re-password" >Re-password:</label>
+        <input type="password" id="Re-password" name="Re-password" placeholder="Enter your password again" required class="InputBox">
+        <input type="submit" value="Register">
+        <hr>
+        <h3 id="status"></h3>
+        <h3>Already a Member ? <a class="subBTN" href="login.html" >Log in</a></h3>
+
+      
+           </form> 
+           <script src="site.js"></script>
+</body>
+</html>
